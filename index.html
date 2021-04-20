@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Module 1 Day 7 Homework-DOM-Manipulation</title>
+  </head>
+  <body>
+    <div class="contianer">
+      <header>
+        <h1 onclick="makeItClickable()">This is the title of the page</h1>
+        <h2>This is the subtitle of the page</h2>
+        <button onclick="changeTitle()">Change Title</button>
+        <button onclick="addClassToTitle()">Add Class To Title</button>
+      </header>
+      <hr />
+      <main class="all-section">
+        <section class="content">
+          <ul id="firstList">
+            <li>1st</li>
+            <li>2nd</li>
+            <li>3rd</li>
+          </ul>
+          <button id="btn-disappear" onclick="firstUlDisappear()">
+            Hide List
+          </button>
+          <button onclick="paintItGreen()">Bg Green</button><br /><br />
+        </section>
+
+        <br />
+
+        <section class="content">
+          <ul id="secondList">
+            <li>1st</li>
+            <li>2nd</li>
+            <li>3rd</li>
+          </ul>
+
+          <button onclick="addToTheSecond()">Add Item</button>
+          <button onclick="removeItem()">Remove Item</button>
+          <button onclick="paintItRandomly()">Bg Random</button><br />
+        </section>
+        <br /><br />
+        <article class="content">
+          <a href="strive.school">This link goes to Strive School</a>
+          <br />
+          <br />
+          <button onclick="changeUrls()">Change Urls</button>
+          <br /><br />
+
+          <div>
+            <button onclick="changePcontent()">Change p Content</button>
+            <p>This text is just for the exercise</p>
+          </div>
+          <div>
+            <input
+              type="text"
+              id="input-field"
+              placeholder="input field for the exercise"
+            />
+          </div>
+        </article>
+      </main>
+
+      <footer onclick="changeFooterText()">
+        <p>clikable clikable clikable clikable clikable</p>
+      </footer>
+    </div>
+    <script src="/index-dom.js"></script>
+  </body>
+</html>

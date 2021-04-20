@@ -1,0 +1,33 @@
+body {
+  box-sizing: border-box;
+}
+.myHeading {
+  color: red;
+}
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+.all-section {
+  padding: 5px;
+  background-color: lightgray;
+}
+header > h1,
+.content {
+  margin: 10px;
+  padding: 5px;
+}
+header {
+  text-align: center;
+}
+.content {
+  background: white;
+}
+
+footer {
+  width: 80%;
+  margin: 10px auto;
+  background-color: lightgray;
+  text-align: center;
+  padding: 5px;
+}
